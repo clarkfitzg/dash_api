@@ -4,6 +4,15 @@
 
 Vessela Ensberg and Clark Fitzgerald
 
+------------------------------------------------------------
+
+An API lets you programmatically access metadata about these scientific data sets.
+
+Why would you want to do this?
+
+What alternative ways exist?
+
+
 ## References
 
 The manual has some Easter eggs- actually made me LOL. Literally the
