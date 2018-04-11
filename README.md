@@ -6,9 +6,10 @@ Vessela Ensberg and Clark Fitzgerald
 
 ------------------------------------------------------------
 
-An API lets you programmatically access metadata about these scientific data sets.
+What's an API?
 
-Why would you want to do this?
+
+Why would you want to access data programmatically?
 
 What alternative ways exist?
 
@@ -18,6 +19,8 @@ What alternative ways exist?
 The manual has some Easter eggs- actually made me LOL. Literally the
 most entertaining API documentation I've ever read.
 https://dash.ucop.edu/api/docs/#/default/get_datasets__doi_
+
+We're not going into any of the complexities here: authentication, sessions, etc.
 
 Duncan's workshop on web scraping is a nice resource:
 http://dsi.ucdavis.edu/WebScraping/

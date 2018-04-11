@@ -68,13 +68,13 @@ j2 = fromJSON(raw2)
 URLdecode(rel_url)
 
 # This DOI is pretty cool.
-doi = "doi:10.6086/D1H59V"
+doi = "doi:10.25338/B8P88G"
 
 # This is the kind of gibberish we're after
 url3 = paste0(base_url, "/api/datasets/", URLencode(doi, reserved = TRUE))
 
 # Now we can go directly to it
-raw1 = getURLContent(url3)
+raw3 = getURLContent(url3)
 
 j3 = fromJSON(raw3)
 
@@ -96,4 +96,4 @@ j[["_embedded"]][[1]][[1]][["storage_size"]]
 
 # 3
 url3 = paste0(base_url, j3[[c("_links", "stash:download")]])
-download.file(url3, "dash1.zip")
+download.file(url3, "dash3.zip")
