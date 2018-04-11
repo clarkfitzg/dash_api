@@ -96,4 +96,4 @@ j[["_embedded"]][[1]][[1]][["storage_size"]]
 
 # 3
 url3 = paste0(base_url, j3[[c("_links", "stash:download")]])
-download.file(url3, "dash1")
+download.file(url3, "dash1.zip")
